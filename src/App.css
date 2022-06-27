@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+  margin-left: 43%;
+  margin-top: 20%;
+
+}
+
+
+.green{background-color: green;}
+.red{background-color: red;}
+
+.namee{
+  width: 10%;
+}
+
+.ForwardRef-root-2 {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  width: 50% !important;
+}
+
+.MuiPaper-rounded {
+  border-radius: 4px;
+  width: 80% !important;
+  margin-left: 10% !important;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  margin-left: 8% !important;
+}
+
+.butt{
+  margin-top: 2% !important;
+}
